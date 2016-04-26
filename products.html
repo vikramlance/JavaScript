@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Sample Product</title>
+		<style>
+
+		/* INSERT CODE HERE */
+			/* Start of solution code*/
+
+			li[class*="best"] { font-weight: bold; }
+
+			li[class="product good"] { color: blue; }
+
+			li[class="service good"] { color: red; }
+
+			div[id="recommendations"] > ul { text-decoration:underline; }
+
+			li[id="service4"] { visibility: hidden; }
+
+			/* End of solution code*/
+
+		</style>
+	</head>
+	<body>
+		<h1>Sample Product</h1>
+
+		<div id="recommendations">
+			Recommendations for you:
+			<ul class="items">
+				<li id="product1" class="product best">Product 1</li>
+				<li id="product2" class="product good">Product 2</li>
+				<li id="service1" class="service good">Service 1</li>
+				<li id="service2" class="service best">Service 2</li>
+			</ul>
+		</div>
+
+		<div id="alsoBought">
+			Other customers also bought:
+			<ul class="items">
+				<li id="product4" class="product okay">Product 4</li>
+				<li id="product5" class="product good">Product 5</li>
+				<li id="product6" class="product okay">Product 6</li>
+				<li id="service3" class="service good">Service 3</li>
+				<li id="service4" class="service good">Service 4</li>
+			</ul>
+		</div>
+	</body>
+</html>
